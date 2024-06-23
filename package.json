@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "npm run type-check && vite build",
+        "type-check": "vue-tsc --noEmit"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^1.2.0",
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/typography": "^0.5.13",
+        "@types/node": "^20.14.8",
+        "@types/ziggy-js": "^1.8.0",
+        "@vitejs/plugin-vue": "^5.0.5",
+        "@vue/tsconfig": "^0.5.1",
+        "autoprefixer": "^10.4.19",
+        "axios": "^1.6.4",
+        "eslint-plugin-vue": "^9.26.0",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.4",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.5.2",
+        "vite": "^5.0.0",
+        "vue": "^3.4.30",
+        "vue-tsc": "^2.0.22"
+    },
+    "dependencies": {
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "lucide-vue-next": "^0.396.0",
+        "pinia": "^2.1.7",
+        "radix-vue": "^1.8.4",
+        "tailwind-merge": "^2.3.0",
+        "tailwindcss-animate": "^1.0.7",
+        "ziggy-js": "^2.2.1"
+    }
+}
